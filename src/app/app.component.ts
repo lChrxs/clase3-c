@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clase3-c';
+
+  valor: number = 0;
+
+  operacion(e: any){
+    console.log(e)
+    this.valor += e;
+  }
 }
